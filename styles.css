@@ -1,0 +1,138 @@
+/* Update style.css */
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f8f9fa;
+}
+
+/* New container for content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    background: white;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Improved layout for event section */
+.event-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    text-align: center;
+}
+
+/* Better button styling */
+button {
+    background: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+/* Image gallery improvements */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.image-gallery img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Form styling improvements */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+/* Add this CSS for validation states*/
+.valid {
+    border-color: #2ecc71 !important;
+}
+
+.invalid {
+    border-color: #e74c3c !important;
+}
+
+/* Footer styling */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Add these new styles */
+.tabs {
+    margin: 2rem 0;
+}
+
+.tab-btn {
+    margin: 0 5px;
+}
+
+.hover-box {
+    background: #f1f1f1;
+    padding: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.secret-spot {
+    color: #e74c3c;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Add to head section of HTML -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
